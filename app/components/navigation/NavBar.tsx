@@ -13,7 +13,7 @@ const NavBar = ({ toggle }:NavBarProps) => {
 
   return (
     <>
-      <div className="w-full h-20 bg-white sticky top-0 border-b-2 border-b-[#990405]">
+      <div className="w-full h-20 bg-white sticky top-0 border-b-2 border-b-[#990405] z-50">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
@@ -34,7 +34,7 @@ const NavBar = ({ toggle }:NavBarProps) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-6 text-[#990405] text-lg">
+            <ul className="hidden md:flex gap-x-6 text-[#990405] text-lg font-semibold">
               <li>
                 <Link href="/">
                   <p className={pathName === '/' ? 'text-black cursor-default' : 'hover:text-gray-500'}>ホーム</p>

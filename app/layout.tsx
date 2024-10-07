@@ -1,4 +1,5 @@
 import Navigation from "./components/navigation/Navigation";
+import { AuroraBackground } from "./components/ui/aurora-background";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -18,9 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        <div className="bg-gray-100">
+        <AuroraBackground>
           {children}
-        </div>
+        </AuroraBackground>
       </body>
     </html>
   );

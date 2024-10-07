@@ -23,7 +23,7 @@ export default function メンバーたち () {
       <h1 className="text-3xl mb-8 font-bold">メンバーたち</h1>
       <div className='flex flex-wrap justify-center'>
         {memberData.map(({ id, name, instruments, bio, imgPath }) => (
-          <div key={id} className='bg-white border-4 border-[#990405] rounded-lg p-2 m-2 flex flex-col items-center w-4/5 md:w-2/5 lg:w-[22%]'>
+          <div key={id} className='bg-white border-4 border-[#990405] rounded-lg p-2 m-2 flex flex-col items-center w-4/5 md:w-2/5 lg:w-[22%] z-10'>
             <Image
               src={imgPath}
               alt={`${name}`}
