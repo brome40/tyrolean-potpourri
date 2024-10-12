@@ -19,7 +19,7 @@ export default function メンバーたち () {
         <title>チロリアン ポッポリのメンバーたち</title>
         <meta name='description' content='チロリアンポッポリの4人のメンバー　様々な経歴をもつ愉快な仲間たちです'/>
       </Head>
-      <div className="w-full flex flex-col items-center pt-5">
+      <div className="w-full flex flex-col items-center pt-5 mb-5">
         <h1 className="text-3xl mb-8 font-bold">メンバーたち</h1>
         <div className='flex flex-wrap justify-center'>
           {memberData.map(({ id, name, instruments, bio, imgPath }) => (

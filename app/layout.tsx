@@ -1,5 +1,6 @@
 import Navigation from "./components/navigation/Navigation";
 import { AuroraBackground } from "./components/ui/aurora-background";
+import { Footer } from "./components/ui/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <AuroraBackground>
           {children}
         </AuroraBackground>
+        <Footer />
       </body>
     </html>
   );

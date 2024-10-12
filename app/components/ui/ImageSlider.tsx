@@ -6,7 +6,7 @@ import Image from "next/image";
 const IMAGE_DATA = [
   {
     path: '/images/slider_01.PNG',
-    altText: ''
+    altText: 'チロリアンポッポリのメンバーたち'
   },
   {
     path: '/images/slider_02.jpg',
