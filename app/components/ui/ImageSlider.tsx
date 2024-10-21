@@ -10,15 +10,15 @@ const IMAGE_DATA = [
   },
   {
     path: '/images/slider_02.jpg',
-    altText: ''
+    altText: 'ピアノの発表会でゲスト演奏！'
   },
   {
     path: '/images/slider_03.jpg',
-    altText: ''
+    altText: 'ながーーいアルプホルンにみんな興味津々'
   },
   {
     path: '/images/slider_04.jpg',
-    altText: ''
+    altText: '色々な楽器を使って演奏してます！'
   }
 ]
 

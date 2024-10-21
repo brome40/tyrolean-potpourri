@@ -7,10 +7,10 @@ export default function お問合せ() {
     <>
       <Head>
         <title>チロリアン ポッポリのお問合せ</title>
-        <meta name='description' content='チロリアンポッポリの4人のメンバー　様々な経歴をもつ愉快な仲間たちです'/>
+        <meta name='description' content='お電話、メール、インスタグラムからお問い合わせください'/>
       </Head>
       <div className="w-full flex flex-col items-center pt-5 mb-5">
-        <h1 className="text-3xl font-bold mb-5">お問合せ</h1>
+        <h1 className="text-3xl font-bold mb-5 z-20">お問合せ</h1>
         <Image
           src='/images/all_members.jpg'
           alt='チロリアンポッポリのメンバーたち'
