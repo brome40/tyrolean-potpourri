@@ -8,9 +8,10 @@ export default function お問合せ() {
       <Head>
         <title>チロリアン ポッポリのお問合せ</title>
         <meta name='description' content='お電話、メール、インスタグラムからお問い合わせください'/>
+        <meta name="robots" content="all" />
       </Head>
       <div className="w-full flex flex-col items-center pt-5 mb-5">
-        <h1 className="text-3xl font-bold mb-5 z-20">お問合せ</h1>
+        <h1 className="font-niconico text-5xl mb-5 text-[#990405] z-20">お問合せ</h1>
         <Image
           src='/images/all_members.jpg'
           alt='チロリアンポッポリのメンバーたち'
@@ -19,7 +20,7 @@ export default function お問合せ() {
           height={100}
           className='z-10 border-2 border-[#990405] rounded-lg w-[80%] md:w-[40%] lg:w-[25%]'
         />
-        <p className='w-[70%] lg:w-[25%] text-center my-5 z-20'>結婚式、パーティー、イベント、学校（芸術鑑賞会、入学式、卒業式、学園祭）、施設など、幅広いご要望にお応えいたします！</p>
+        <p className='w-[70%] lg:w-[25%] text-center my-5 z-20'>オクトーバーフェスト、イベント、 パーティー、コンサート、学校（芸術鑑賞会、学園祭）、サプライズ演奏など、大規模なイベントからプライベートなご利用まで、幅広いご要望にお応え致します。</p>
         <h2 className="text-base sm:text-lg lg:text-xl mb-5 text-center font-semibold z-20">お気軽にお問合せください！</h2>
         <div className='my-5 flex flex-col items:center gap-2'>
           <div className='flex items-center'>

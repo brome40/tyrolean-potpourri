@@ -14,6 +14,9 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily : {
+        niconico: ['Niconico', 'sans-serif'],
+      },
       animation: {
         aurora: "aurora 60s linear infinite",
       },

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Niconico';
+  src: url('/fonts/niconico.ttf') format('truetype'); /* Adjust the file path and format if necessary */
+  font-weight: normal;
+  font-style: normal;
+}

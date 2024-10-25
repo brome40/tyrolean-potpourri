@@ -18,9 +18,10 @@ export default function メンバーたち () {
       <Head>
         <title>チロリアン ポッポリのメンバーたち</title>
         <meta name='description' content='チロリアンポッポリの4人のメンバー様々な経歴をもつ愉快な仲間たちです'/>
+        <meta name="robots" content="all" />
       </Head>
       <div className="w-full flex flex-col items-center pt-5 mb-5">
-        <h1 className="text-3xl mb-8 font-bold z-20">メンバーたち</h1>
+        <h1 className="font-niconico text-5xl mb-8 text-[#990405] z-20">メンバーたち</h1>
         <div className='flex flex-wrap justify-center'>
           {memberData.map(({ id, name, instruments, bio, imgPath }) => (
             <div key={id} className='bg-white border-4 border-[#990405] rounded-lg p-2 m-2 flex flex-col items-center w-4/5 md:w-2/5 lg:w-[22%] z-10'>
