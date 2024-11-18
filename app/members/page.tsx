@@ -18,7 +18,7 @@ export default function メンバーたち () {
       <Head>
         <title>チロリアン ポッポリのメンバーたち</title>
         <meta name='description' content='チロリアンポッポリの4人のメンバー様々な経歴をもつ愉快な仲間たちです'/>
-        <meta name="robots" content="all" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <div className="w-full flex flex-col items-center pt-5 mb-5">
         <h1 className="font-niconico text-5xl mb-8 text-[#990405] z-20">メンバーたち</h1>

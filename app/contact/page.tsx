@@ -8,7 +8,7 @@ export default function お問合せ() {
       <Head>
         <title>チロリアン ポッポリのお問合せ</title>
         <meta name='description' content='お電話、メール、インスタグラムからお問い合わせください'/>
-        <meta name="robots" content="all" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <div className="w-full flex flex-col items-center pt-5 mb-5">
         <h1 className="font-niconico text-5xl mb-5 text-[#990405] z-20">お問合せ</h1>

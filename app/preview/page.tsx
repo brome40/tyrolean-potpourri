@@ -7,7 +7,7 @@ export default function プレビュー() {
       <Head>
         <title>チロリアン ポッポリのお問合せ</title>
         <meta name='description' content='チロリアンポッポリの4人のメンバー様々な経歴をもつ愉快な仲間たちです'/>
-        <meta name="robots" content="all" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <div className="w-full flex flex-col items-center">
         <h1 className="font-niconico text-5xl my-5 text-[#990405] z-20">ビデオ</h1>
